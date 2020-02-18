@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>温度表示</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="temp.js"></script>
+</head>
+<body>
+<header>
+   <h1>micro:bit × Web Bluetooth API</h1>
+</header>
+<main>
+	<div class="button">
+		<input class="btn" type="button" value="接続" onclick="getTemperature();"/>
+        <input class="btn" type="button" value="切断" onclick="disconnect();"/>
+    </div>
+    <p id="show_temp">接続してください。</p>
+</main>
+</body>
+</html>
+
